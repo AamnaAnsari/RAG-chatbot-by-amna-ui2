@@ -70,7 +70,7 @@
 
         try {
             // 3. Backend se baat karein
-            const res = await fetch("http://127.0.0.1:8000/chat", {
+            const res = await fetch("https://rag-chatbot-by-amna-production.up.railway.app/chat", {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify({query: query})
